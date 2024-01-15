@@ -1,0 +1,17 @@
+phrase:
+      access_token: "5c645f2c87dfae49f9d3e7e0589cd593dc35d9b3b6d78c5b98ba473c79eaa902"
+      file_format: yml
+      push:
+        sources:
+        # laff33/travel-site
+        - file: ./phrase_strings_testing/locales/en.yml
+          project_id: "9e8dec6ad9ecd613ad24df39ce149dce"
+          params:
+            locale_id: "57c19d063277492efca27f2cff753fd2"
+    
+      pull:
+        targets:
+        # laff33/travel-site
+        - file: ./phrase_strings_testing/locales/en.yml
+          project_id: "9e8dec6ad9ecd613ad24df39ce149dce"
+    
